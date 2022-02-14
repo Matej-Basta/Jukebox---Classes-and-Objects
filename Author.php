@@ -7,10 +7,10 @@ class Author
     public $image = null;
     public $songs = [];
 
-    public function __construct()
-    {
-        $this->sayName();
-    }
+    // public function __construct()
+    // {
+    //     $this->sayName();
+    // }
 
     public function sayName()
     {

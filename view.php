@@ -13,7 +13,7 @@
     <ul>
         <?php
 foreach($M83->albums as $album) {
-    echo "<li>{$album->name}</li><ul>";
+    echo "<li>{$album->name} - Length: {$album->calculateLength()}</li><ul>";
 
     foreach($album->songs as $song) {
         echo "<li>{$song->name}</li>";

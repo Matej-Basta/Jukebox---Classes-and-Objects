@@ -16,14 +16,17 @@ $M83->albums[] = $album1;
 
 $song1 = new Song;
 $song1->name = "Birds";
+$song1->length = 3.5;
 $album1->songs[] = $song1;
 
 $song2 = new Song;
 $song2->name = "Unrecorded";
+$song2->length = 2.9;
 $album1->songs[] = $song2;
 
 $song3 = new Song;
 $song3->name = "In Church";
+$song3->length = 3.3;
 $album1->songs[] = $song3;
 
 $album2 = new Album;
@@ -36,4 +39,4 @@ $M83->albums[] = $album2;
 
 
 
-include 'view.php';
+include 'json.php';
